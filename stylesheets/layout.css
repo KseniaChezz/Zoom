@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	transition: all .3s ease;
+}
+
+body {
+    width: 1440px;
+    height: 900px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*min-width: 768px;*/
+    background-image: url(../images/back.jpg);
+    /*background-image: url(../images/color.nanozoo-02.svg);*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+section.main {
+    position: relative;
+    /*display: block;*/
+    width: 100vh;
+}
+
+.plant1 {
+    position: absolute;
+    top: 413px;
+    left: -8px;
+    width: 250px;
+    height: 396px;
+    background-image: url(../images/color.nanozoo-03.svg);
+}
