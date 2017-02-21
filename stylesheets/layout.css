@@ -14,55 +14,84 @@ body {
     -moz-osx-font-smoothing: grayscale;
     /*min-width: 768px;*/
     font-family: 'Comfortaa', cursive;
-    background-image: url(../images/back.jpg);
-    /*background-image: url(../images/color.nanozoo-02.svg);*/
+    /*background-image: url(../images/back.jpg);
+    background-image: url(../images/color.nanozoo-02.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top center;*/
 }
 
+/*section.general {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;*/
+}
 section.main {
-    /*position: relative;
-    display: flex;
-    width: 100%;*/
+  /*position: relative;
+  display: flex;
+  width: 100%;*/
 
-    position: relative;
-    display: flex;
-    overflow: hidden;
-    height: calc(100vh - 42px);
-    width: 100vw;
+  /*position: absolute;
+	width: 1440px;
+	height: 900px;
+	margin: 0 auto;
+  background-image: url(../images/color.nanozoo-02.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;*/
+
+	position: relative;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
 }
 
+.background,
 .plant1,
 .plant2,
 .plant3,
 .plant4,
 .food {
-    position: absolute;
+  position: absolute;
 }
 
+.background {
+	width: 1440px;
+	height: 900px;
+	background-image: url(../images/color.nanozoo-02.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;*/
+}
 .plant1 {
-    top: 294px;
-    left: -6px;
-    width: 180px;
-    height: 282px;
-    background-image: url(../images/color.nanozoo-03.svg);
+  /*margin: 0 auto;
+	width: 100vw;
+  height: 100vh;*/
+	top: 294px;
+  left: -6px;
+  width: 180px;
+  height: 282px;
+  background-image: url(../images/color.nanozoo-03.svg);
 }
 
-.plant2 {
-    top: 214px;
-    left: 86px;
-    width: 149px;
-    height: 237px;
-    background-image: url(../images/color.nanozoo-04.svg);
+/*.plant2 {
+  top: 214px;
+  left: 86px;
+  width: 149px;
+  height: 237px;
+  background-image: url(../images/color.nanozoo-04.svg);
 }
 
 .plant3 {
-    top: 226px;
-    left: 195px;
-    width: 164px;
-    height: 198px;
-    background-image: url(../images/color.nanozoo-05.svg);
+  top: 226px;
+  left: 195px;
+  width: 164px;
+  height: 198px;
+  background-image: url(../images/color.nanozoo-05.svg);
 }
 
 .plant4 {
@@ -79,4 +108,4 @@ section.main {
     width: 487px;
     height: 142px;
     background-image: url(../images/color.nanozoo-07.svg);
-}
+}*/
