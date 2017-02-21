@@ -1,5 +1,6 @@
 @import 'reset.css';
+@import 'font-awesome.css';
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic');
 
 @import 'layout.css';
-@import 'ul.css';
+@import 'menubar.css';

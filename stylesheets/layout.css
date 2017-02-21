@@ -3,30 +3,80 @@
 	transition: all .3s ease;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
-    width: 1440px;
-    height: 900px;
+    height: 100vh;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /*min-width: 768px;*/
+    font-family: 'Comfortaa', cursive;
     background-image: url(../images/back.jpg);
     /*background-image: url(../images/color.nanozoo-02.svg);*/
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
 }
 
 section.main {
+    /*position: relative;
+    display: flex;
+    width: 100%;*/
+
     position: relative;
-    /*display: block;*/
-    width: 100vh;
+    display: flex;
+    overflow: hidden;
+    height: calc(100vh - 42px);
+    width: 100vw;
+}
+
+.plant1,
+.plant2,
+.plant3,
+.plant4,
+.food {
+    position: absolute;
 }
 
 .plant1 {
-    position: absolute;
-    top: 413px;
-    left: -8px;
-    width: 250px;
-    height: 396px;
+    top: 294px;
+    left: -6px;
+    width: 180px;
+    height: 282px;
     background-image: url(../images/color.nanozoo-03.svg);
+}
+
+.plant2 {
+    top: 214px;
+    left: 86px;
+    width: 149px;
+    height: 237px;
+    background-image: url(../images/color.nanozoo-04.svg);
+}
+
+.plant3 {
+    top: 226px;
+    left: 195px;
+    width: 164px;
+    height: 198px;
+    background-image: url(../images/color.nanozoo-05.svg);
+}
+
+.plant4 {
+    top: 260px;
+    right: 68px;
+    width: 91px;
+    height: 180px;
+    background-image: url(../images/color.nanozoo-06.svg);
+}
+
+.food {
+    top: 431px;
+    right: 245px;
+    width: 487px;
+    height: 142px;
+    background-image: url(../images/color.nanozoo-07.svg);
 }
