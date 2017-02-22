@@ -1,0 +1,11 @@
+@media screen and (max-width: 1440px) {
+  .general {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  .landingWrapper {
+    width: 100%;
+  }
+}

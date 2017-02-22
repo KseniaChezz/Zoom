@@ -14,11 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /*min-width: 768px;*/
   font-family: 'Comfortaa', cursive;
-  /*background-image: url(../images/back.jpg);
-  background-image: url(../images/color.nanozoo-02.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;*/
+	background-image: url(../images/color.svg);
 }
 
 section.general {
@@ -35,6 +31,7 @@ section.main {
 	width: 1440px;
 	height: 900px;
 	overflow: hidden;
+	border-radius: 0;
 }
 
 .background,
@@ -53,7 +50,7 @@ section.main {
 	width: 1440px;
 	height: 900px;
 	background-image: url(../images/color.nanozoo-02.svg);
-	background-image: url(../images/back.jpg);
+	/*background-image: url(../images/back.jpg);*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
