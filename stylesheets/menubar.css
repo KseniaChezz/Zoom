@@ -51,11 +51,12 @@ footer {
 
 .buy ul {
   position: absolute;
-  top: 56px;
+  top: 64px;
   right: -7px;
   display: none;
   width: 220px;
   padding: 10px 0;
+  border: 1px solid white;
   box-shadow: 0 2px 1px 0 rgba(0,0,0,0.15);
 }
 

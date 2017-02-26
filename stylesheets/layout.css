@@ -1,19 +1,6 @@
-* {
-	box-sizing: border-box;
-	transition: all .3s ease;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 body {
   height: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   /*min-width: 768px;*/
-  font-family: 'Comfortaa', cursive;
 	background-image: url(../images/color.svg);
 }
 
@@ -99,11 +86,12 @@ section.main {
 
 /*  Разъяснительные элементы  */
 
-.container.food, .button, .nav{
+.container.food, .container.plant, .button, .nav{
   position: absolute;
 }
 
-.container.food {
+.container.food,
+.container.plant {
   margin: auto;
   top: 0;
   left: 0;
@@ -113,73 +101,88 @@ section.main {
   height: 100px;
 }
 
-#toggle {
+
+#toggle1,
+#toggle2 {
   display: none;
 }
 
 .button {
   z-index: 999;
-  width: 20px;
-  height: 20px;
-	right: 37px;
-	top: 36px;
-  background: #F28482;
+	width: 22px;
+  height: 22px;
   border-radius: 100%;
+  border: 2px solid white;
   transition: all 0.5s ease-in-out;
-  box-shadow: 1px 3px 10px 0 rgba(#000000, 0.3);
   cursor: pointer;
 }
 
-.button::before {
-  position: absolute;
-  top: 9px;
+.button.p {
+	top: 20px;
+	right: 4px;
+}
+
+.button.f {
+	top: 36px;
+	right: 15px;
+}
+
+.button::before,
+.button::after {
+	position: absolute;
+  top: 8px;
   left: 4px;
   content: '';
-  width: 12px;
+  width: 10px;
   height: 2px;
+}
+
+.button::before {
   background: #FFF;
   transform: rotate(90deg);
 }
 
 .button::after {
-  position: absolute;
-  top: 9px;
-  left: 4px;
-  content: '';
-  width: 12px;
-  height: 2px;
   background: #FFF;
 }
 
 .nav {
   transform: translateY(-10%);
 	opacity: 0;
-	top: 34px;
-  right: -81px;
+	top: 32px;
+  right: -111px;
   transition: all 0.5s ease-in-out;
   background: #FFF;
-  width: 127px;
+  width: 125px;
   border-radius: 5px;
   transform: translateY(0%);
 	box-shadow: 0px 2px 1px 0 rgba(0,0,0,.15);
 }
 
 .nav a {
-	text-align: center;
-  display: block;
-  padding: 13px;
-  color: #4FC0AC;
-  text-decoration: none;
+	text-align: left;
+	display: block;
+	padding: 15px;
+	color: #4FC0AC;
+	text-decoration: none;
 	font-size: 14px;
-  letter-spacing: 1px;
+	line-height: 1.2;
 }
 
-#toggle:checked ~ .nav {
+.nav.p {
+	top: 13px;
+  right: -119px;
+}
+
+
+#toggle1:checked ~ .nav,
+#toggle2:checked ~ .nav {
   opacity: 1;
   transform: translateY(10%);
 }
 
-#toggle:checked ~ .button {
-  transform: rotate(135deg);
-   box-shadow: 0 0 0 0 transparent;
+#toggle1:checked ~ .button,
+#toggle2:checked ~ .button {
+	transform: rotate(135deg);
+	box-shadow: 0 0 0 0 transparent;
 }
