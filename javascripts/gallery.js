@@ -47,6 +47,7 @@ $(function() {
       e.preventDefault();
     } else {
       moveGallery();
+      checkMoveAvailability();
     }
   });
 
@@ -62,6 +63,7 @@ $(function() {
       e.preventDefault();
     } else {
       moveGallery();
+      checkMoveAvailability();
     }
   });
 

@@ -1,7 +1,7 @@
 body.index {
-  height: 100%;
+  height: 100vh;
   /*min-width: 768px;*/
-	background-image: url(../images/color.svg);
+	background-image: url(../images/color-index.svg);
 }
 
 section.general {

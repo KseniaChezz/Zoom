@@ -52,6 +52,7 @@ div.text {
   display: inline-flex;
 }
 
+.icons a div,
 .icons div {
   display: block;
   text-align: center;
@@ -62,12 +63,12 @@ div.text {
   padding-right: 16px;
 }
 
-.icons div:first-child::before {
+.icons a:first-child div::before {
   content: '\f053';
 
 }
 
-.icons div:nth-child(2)::before {
+.icons a:nth-child(2) div::before {
   content: '\f054';
 }
 
@@ -75,6 +76,19 @@ div.text {
   content: '\f054';
 }
 
+figure.non,
+figure.non1 {
+  position: absolute;
+  width: 18px;
+  height: 20px;
+  top: -2px;
+  background-image: url(../images/color-terrarium.svg);
+}
+
+figure.non1{
+  right:94px;
+  background-image: url(../images/color-characters.svg);
+}
 
 section.gallery {
   position: relative;
