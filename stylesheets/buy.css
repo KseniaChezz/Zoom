@@ -40,6 +40,7 @@ div.text {
   position: relative;
   display: inline-flex;
   justify-content: space-between;
+  width: 50vh;
   margin-top: 4px;
   color: white;
   font-size: 20px;
@@ -49,7 +50,6 @@ div.text {
 .icons {
   position: relative;
   display: inline-flex;
-  width: 50%;
 }
 
 .icons div {
@@ -57,25 +57,24 @@ div.text {
   text-align: center;
   font-family: 'FontAwesome';
   height: 100%;
-  width: 100%;
-  /*line-height: 10px;*/
+  font-size: 16px;
+  font-weight: normal;
+  padding-right: 16px;
 }
 
-.icons div:first-child:before {
-  font-size: 20px;
-  content: '\f054';
+.icons div:first-child::before {
+  content: '\f053';
 
 }
 
-.icon div:nth-child(2):before {
-  font-size: 20px;
+.icons div:nth-child(2)::before {
   content: '\f054';
-  transform: rotate(180deg);
 }
 
-/*.icon div:last-child {
+.icons div:last-child {
   content: '\f054';
-}*/
+}
+
 
 section.gallery {
   position: relative;
