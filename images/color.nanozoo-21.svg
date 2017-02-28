@@ -3924,75 +3924,67 @@
 	.st3918{fill:url(#SVGID_4027_);}
 	.st3919{fill:url(#SVGID_4028_);}
 	.st3920{fill:url(#SVGID_4029_);}
-	.st3921{display:none;}
-	.st3922{display:inline;}
-	.st3923{fill:url(#SVGID_4030_);}
-	.st3924{fill:url(#SVGID_4031_);}
-	.st3925{fill:url(#SVGID_4032_);}
-	.st3926{fill:url(#SVGID_4033_);}
-	.st3927{clip-path:url(#SVGID_4035_);}
-	.st3928{clip-path:url(#SVGID_4037_);}
-	.st3929{clip-path:url(#SVGID_4039_);}
-	.st3930{clip-path:url(#SVGID_4041_);}
-	.st3931{clip-path:url(#SVGID_4043_);}
-	.st3932{fill:url(#SVGID_4044_);}
-	.st3933{fill:url(#SVGID_4045_);}
-	.st3934{clip-path:url(#SVGID_4047_);}
-	.st3935{clip-path:url(#SVGID_4049_);}
-	.st3936{clip-path:url(#SVGID_4051_);}
-	.st3937{clip-path:url(#SVGID_4053_);}
-	.st3938{clip-path:url(#SVGID_4055_);}
-	.st3939{fill:url(#SVGID_4056_);}
-	.st3940{clip-path:url(#SVGID_4058_);}
-	.st3941{clip-path:url(#SVGID_4060_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3942{clip-path:url(#SVGID_4062_);}
-	.st3943{clip-path:url(#SVGID_4064_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3944{clip-path:url(#SVGID_4066_);}
-	.st3945{clip-path:url(#SVGID_4068_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3946{clip-path:url(#SVGID_4070_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3947{clip-path:url(#SVGID_4072_);}
-	.st3948{clip-path:url(#SVGID_4074_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3949{clip-path:url(#SVGID_4076_);}
-	.st3950{clip-path:url(#SVGID_4078_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3951{clip-path:url(#SVGID_4080_);}
-	.st3952{clip-path:url(#SVGID_4082_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3953{clip-path:url(#SVGID_4084_);}
-	.st3954{clip-path:url(#SVGID_4086_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3955{clip-path:url(#SVGID_4088_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3956{clip-path:url(#SVGID_4090_);}
-	.st3957{clip-path:url(#SVGID_4092_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3958{clip-path:url(#SVGID_4094_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3959{clip-path:url(#SVGID_4096_);}
-	.st3960{clip-path:url(#SVGID_4098_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3961{clip-path:url(#SVGID_4100_);}
-	.st3962{clip-path:url(#SVGID_4102_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3963{clip-path:url(#SVGID_4104_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3964{clip-path:url(#SVGID_4106_);}
-	.st3965{clip-path:url(#SVGID_4108_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3966{clip-path:url(#SVGID_4110_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3967{clip-path:url(#SVGID_4112_);}
-	.st3968{clip-path:url(#SVGID_4114_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3969{clip-path:url(#SVGID_4116_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3970{clip-path:url(#SVGID_4118_);}
-	.st3971{clip-path:url(#SVGID_4120_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3972{clip-path:url(#SVGID_4122_);}
-	.st3973{clip-path:url(#SVGID_4124_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3974{clip-path:url(#SVGID_4126_);}
-	.st3975{clip-path:url(#SVGID_4128_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3976{clip-path:url(#SVGID_4130_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
-	.st3977{fill:url(#SVGID_4131_);}
-	.st3978{fill:url(#SVGID_4132_);}
-	.st3979{fill:url(#SVGID_4133_);}
-	.st3980{fill:url(#SVGID_4134_);}
-	.st3981{display:inline;fill:#4FC0AC;}
-	.st3982{fill:url(#SVGID_4135_);}
-	.st3983{display:inline;fill:url(#SVGID_4136_);}
-	.st3984{display:inline;fill:url(#SVGID_4137_);}
-	.st3985{display:inline;fill:url(#SVGID_4138_);}
-	.st3986{display:inline;fill:url(#SVGID_4139_);}
-	.st3987{display:inline;fill:#B0A9D2;}
+	.st3921{clip-path:url(#SVGID_4031_);}
+	.st3922{clip-path:url(#SVGID_4033_);}
+	.st3923{clip-path:url(#SVGID_4035_);}
+	.st3924{clip-path:url(#SVGID_4037_);}
+	.st3925{clip-path:url(#SVGID_4039_);}
+	.st3926{fill:url(#SVGID_4040_);}
+	.st3927{fill:url(#SVGID_4041_);}
+	.st3928{clip-path:url(#SVGID_4043_);}
+	.st3929{clip-path:url(#SVGID_4045_);}
+	.st3930{clip-path:url(#SVGID_4047_);}
+	.st3931{clip-path:url(#SVGID_4049_);}
+	.st3932{clip-path:url(#SVGID_4051_);}
+	.st3933{fill:url(#SVGID_4052_);}
+	.st3934{clip-path:url(#SVGID_4054_);}
+	.st3935{clip-path:url(#SVGID_4056_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3936{clip-path:url(#SVGID_4058_);}
+	.st3937{clip-path:url(#SVGID_4060_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3938{clip-path:url(#SVGID_4062_);}
+	.st3939{clip-path:url(#SVGID_4064_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3940{clip-path:url(#SVGID_4066_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3941{clip-path:url(#SVGID_4068_);}
+	.st3942{clip-path:url(#SVGID_4070_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3943{clip-path:url(#SVGID_4072_);}
+	.st3944{clip-path:url(#SVGID_4074_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3945{clip-path:url(#SVGID_4076_);}
+	.st3946{clip-path:url(#SVGID_4078_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3947{clip-path:url(#SVGID_4080_);}
+	.st3948{clip-path:url(#SVGID_4082_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3949{clip-path:url(#SVGID_4084_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3950{clip-path:url(#SVGID_4086_);}
+	.st3951{clip-path:url(#SVGID_4088_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3952{clip-path:url(#SVGID_4090_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3953{clip-path:url(#SVGID_4092_);}
+	.st3954{clip-path:url(#SVGID_4094_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3955{clip-path:url(#SVGID_4096_);}
+	.st3956{clip-path:url(#SVGID_4098_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3957{clip-path:url(#SVGID_4100_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3958{clip-path:url(#SVGID_4102_);}
+	.st3959{clip-path:url(#SVGID_4104_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3960{clip-path:url(#SVGID_4106_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3961{clip-path:url(#SVGID_4108_);}
+	.st3962{clip-path:url(#SVGID_4110_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3963{clip-path:url(#SVGID_4112_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3964{clip-path:url(#SVGID_4114_);}
+	.st3965{clip-path:url(#SVGID_4116_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3966{clip-path:url(#SVGID_4118_);}
+	.st3967{clip-path:url(#SVGID_4120_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3968{clip-path:url(#SVGID_4122_);}
+	.st3969{clip-path:url(#SVGID_4124_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3970{clip-path:url(#SVGID_4126_);fill:none;stroke:#FFFFFF;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st3971{fill:url(#SVGID_4127_);}
+	.st3972{fill:url(#SVGID_4128_);}
+	.st3973{fill:url(#SVGID_4129_);}
+	.st3974{fill:url(#SVGID_4130_);}
+	.st3975{fill:url(#SVGID_4131_);}
+	.st3976{fill:url(#SVGID_4132_);}
+	.st3977{fill:url(#SVGID_4133_);}
+	.st3978{fill:url(#SVGID_4134_);}
+	.st3979{fill:url(#SVGID_4135_);}
 </style>
-<pattern  x="-1693" y="-3322" width="72" height="72" patternUnits="userSpaceOnUse" id="Diamond_2" viewBox="72.2 -144.2 72 72" style="overflow:visible;">
+<pattern  x="-2690.9" y="-2320.6" width="72" height="72" patternUnits="userSpaceOnUse" id="Diamond_2" viewBox="72.2 -144.2 72 72" style="overflow:visible;">
 	<g>
 		<polygon class="st0" points="72.2,-144.2 144.2,-144.2 144.2,-72.2 72.2,-72.2 		"/>
 		<g>
@@ -4242,43 +4234,23 @@
 <g id="terrariums">
 </g>
 <g id="buy_plants">
+	<g>
+		<pattern  id="SVGID_1_" xlink:href="#Diamond_2" patternTransform="matrix(1.0067 0.6499 -0.6499 1.0067 -2973.3728 3118.5159)">
+		</pattern>
+		<polygon class="st13" points="162.9,80.1 234.4,143.3 269.1,28.9 		"/>
+		<polygon class="st95" points="125.9,33 94.3,128.1 193.2,138.1 		"/>
+		<polygon class="st95" points="204.2,200 192.5,202.4 185,369.9 216,372.1 		"/>
+		<polygon class="st95" points="95.8,200 299.8,200 192.5,13.1 		"/>
+		<polygon class="st95" points="299.8,162.1 254.4,232.9 211.9,162.1 		"/>
+		<pattern  id="SVGID_2_" xlink:href="#Diamond_2" patternTransform="matrix(1.0067 0.6499 -0.6499 1.0067 -2973.3728 3118.5159)">
+		</pattern>
+		<polygon class="st14" points="178,88.1 85.4,162.5 177.4,236 		"/>
+	</g>
 </g>
 <g id="buy_aactors">
-	<g>
-		<polygon class="st3905" points="86.7,150.9 149.8,85.6 240.5,79.3 319.4,138.5 319.4,236.5 248.4,307.6 122.2,288 77.5,214.7 		
-			"/>
-		<polygon class="st3905" points="49,239.2 25.2,260.8 25.2,290.1 60.9,323.7 99.8,308.7 93.8,255.6 		"/>
-		<polygon class="st3905" points="155.6,290.7 117.7,296 117.7,344.6 183.5,367.1 195.5,314.7 		"/>
-		<polygon class="st3905" points="297.3,238.2 360,252.8 342.1,308 285.3,308 270.3,260.9 		"/>
-		<polygon class="st3905" points="249.3,282.9 288.1,338.7 234.3,358.3 203.2,331 		"/>
-		<pattern  id="SVGID_1_" xlink:href="#Diamond_2" patternTransform="matrix(1.0067 0.6499 -0.6499 1.0067 -2535.1772 3817.6367)">
-		</pattern>
-		<polygon class="st13" points="203.2,81.9 245.7,108 245.7,197.7 146.9,273.1 99.8,238.2 126.9,283.9 227.2,299.4 250.9,276.8 
-			262.4,293.6 275.9,280.1 263.9,258 295.9,234 313.9,242.1 319.4,236.5 319.4,138.5 240.5,79.3 		"/>
-		<pattern  id="SVGID_2_" xlink:href="#Diamond_2" patternTransform="matrix(1.0067 0.6499 -0.6499 1.0067 -2584.3035 3819.5583)">
-		</pattern>
-		<polygon class="st14" points="25.2,290.1 60.9,323.7 99.8,308.7 93.8,255.6 62.5,244.1 75.6,273.1 62.5,290.7 		"/>
-		<pattern  id="SVGID_3_" xlink:href="#Diamond_2" patternTransform="matrix(1.0067 0.6499 -0.6499 1.0067 -2564.5076 3819.5583)">
-		</pattern>
-		<polygon class="st16" points="127.2,340.8 178.7,358.3 194.1,320.6 155.8,299.4 156.6,328.9 		"/>
-		<pattern  id="SVGID_4_" xlink:href="#Diamond_2" patternTransform="matrix(1.0067 0.6499 -0.6499 1.0067 -2600.2366 3817.1104)">
-		</pattern>
-		<polygon class="st17" points="285.3,308 342.1,308 360,252.8 322.6,245.7 322.6,272.3 		"/>
-		<pattern  id="SVGID_5_" xlink:href="#Diamond_2" patternTransform="matrix(1.0067 0.6499 -0.6499 1.0067 -2584.3035 3819.5583)">
-		</pattern>
-		<polygon class="st18" points="250.8,290.7 279.9,337 235.9,351 209.6,330.4 257.6,325.9 		"/>
-		<g>
-			<polygon class="st3911" points="49,239.2 25.2,260.8 25.2,290.1 60.9,323.7 99.8,308.7 93.8,255.6 			"/>
-			<polygon class="st3911" points="285.3,308 342.1,308 360,252.8 313.9,242.1 319.4,236.5 319.4,138.5 240.5,79.3 149.8,85.6 
-				86.7,150.9 77.5,214.7 122.2,288 147,291.9 117.7,296 117.7,344.6 183.5,367.1 195.5,314.7 161.2,294.1 228.6,304.5 203.2,331 
-				234.3,358.3 288.1,338.7 259.1,296.9 276.3,279.7 			"/>
-		</g>
-		<polygon class="st3" points="62.5,58.1 159.6,177.7 231.3,18.1 		"/>
-		<polygon class="st11" points="178.7,60.6 120.7,79.3 146.9,112.2 149.8,85.6 		"/>
-	</g>
 </g>
 <g id="header">
 </g>
-<g id="all" class="st3921">
+<g id="all">
 </g>
 </svg>

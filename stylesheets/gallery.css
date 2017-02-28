@@ -1,7 +1,7 @@
 .next,
 .prev {
-  position: fixed;
-  top: 46%;
+  position: absolute;;
+  top: calc(50% - 25px);
   width: 50px;
   height: 50px;
   cursor: pointer;
@@ -9,11 +9,11 @@
 }
 
 .prev {
-  left: 40vh;
+  right: calc(35vh + 18% + 18% + 50px);
 }
 
 .next {
-  right: 40vh;
+  left: calc(35vh + 18% + 18% + 50px);
 }
 
 .arrow-next,

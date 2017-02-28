@@ -1,11 +1,29 @@
-body.ter {
+body.ter,
+body.plan,
+body.char {
   display: flex;
   overflow: hidden;
   width: 100%;
   height: 100vh;
   /*height: 100%;*/
   /*min-width: 768px;*/
-  background-image: url(../images/color-terrarium.svg);
+}
+
+body.ter {background-image: url(../images/color-terrarium.svg);}
+
+body.plan {background-image: url(../images/color-plants.svg);}
+
+body.char {background-image: url(../images/color-characters.svg);}
+
+
+section.generalTer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: 60vh;
+  margin: 24vh auto;
 }
 
 section.terrarium {
@@ -13,29 +31,58 @@ section.terrarium {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
-  height: 60vh;
-  margin: 22vh auto;
-  /*background-color: yellow;*/
+  margin-top: 38px;
+  width: 100%;
+  height:35vh;
 }
 
 div.text {
   position: relative;
+  display: inline-flex;
+  justify-content: space-between;
   margin-top: 4px;
   color: white;
-  font-size: 30px;
-  font-weight: bold
+  font-size: 20px;
+  font-weight: bold;
 }
 
+.icons {
+  position: relative;
+  display: inline-flex;
+  width: 50%;
+}
+
+.icons div {
+  display: block;
+  text-align: center;
+  font-family: 'FontAwesome';
+  height: 100%;
+  width: 100%;
+  /*line-height: 10px;*/
+}
+
+.icons div:first-child:before {
+  font-size: 20px;
+  content: '\f054';
+
+}
+
+.icon div:nth-child(2):before {
+  font-size: 20px;
+  content: '\f054';
+  transform: rotate(180deg);
+}
+
+/*.icon div:last-child {
+  content: '\f054';
+}*/
+
 section.gallery {
-  position: absolute;
-  display: flex;
+  position: relative;
   align-items: center;
   overflow: hidden;
-  top: 100px;
   width: 35vh;
   height: 35vh;
-  /*background-color: red;*/
 }
 
 section.rail {
@@ -43,19 +90,20 @@ section.rail {
 }
 
 .collection {
-  /*display: inline-flex;
-  justify-content: flex-start;
-  overflow: scroll;
-  overflow-y: hidden;*/
   display: flex;
-  /*background-color: green;*/
 }
 
 .ph1,
 .ph2,
-.ph3 {
+.ph3,
+.ph4,
+.ph5,
+.ph6,
+.ph7,
+.ph8,
+.ph9,
+.ph10 {
   display: inline-flex;
-  /*margin: 0 auto;*/
   width: 35vh;
   height: 35vh;
   background-size: cover;
@@ -63,41 +111,35 @@ section.rail {
 	background-position: top center;
 }
 
-.ph1{
-  background-image: url(../images/color.nanozoo-24.svg);
-}
-
-.ph2{
-  background-image: url(../images/color.nanozoo-22.svg);
-}
-
-.ph3{
-  background-image: url(../images/color.nanozoo-23.svg);
-}
-
+.ph1 {background-image: url(../images/color.nanozoo-24.svg);}
+.ph2 {background-image: url(../images/color.nanozoo-22.svg);}
+.ph3 {background-image: url(../images/color.nanozoo-23.svg);}
+.ph4 {background-image: url(../images/color.nanozoo-21.svg);}
+.ph5 {background-image: url(../images/color.nanozoo-19.svg);}
+.ph6 {background-image: url(../images/color.nanozoo-20.svg);}
+.ph7 {background-image: url(../images/color.nanozoo-15.svg);}
+.ph8 {background-image: url(../images/color.nanozoo-16.svg);}
+.ph9 {background-image: url(../images/color.nanozoo-17.svg);}
+.ph10 {background-image: url(../images/color.nanozoo-18.svg);}
 
 .choose {
-  position: absolute;
+  position: relative;
   display: inline-flex;
   justify-content: space-between;
-  bottom: 56px;
-  width: 43%;
-  padding-top: 5px;
+  width: 215px;
+  margin-top: 30px;
+  padding-top: 8px;
   border-top: 1px solid white;
-}
-
-
 }
 
 .checkPoint,
 .cost {
   display: inline-flex;
-  justify-content: space-between;
-  width: 32%;
+  justify-content: space-between
 }
 
-.cost {
-  width: 25%;
+.cost div:first-child {
+  padding-right: 3px;
 }
 
 .checkPoint div,
@@ -105,4 +147,52 @@ section.rail {
   display: inline-flex;
   justify-content: space-between;
   color: white;
+}
+
+
+/* Checkbox */
+
+.control {
+  display: block;
+  cursor: pointer;
+}
+
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control__indicator {
+  position: absolute;
+  top: 5px;
+  height: 20px;
+  width: 20px;
+  background: #e6e6e6;
+}
+
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+  background: #443B96;
+}
+.control input:disabled ~ .control__indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
