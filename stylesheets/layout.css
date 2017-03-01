@@ -84,12 +84,14 @@ section.main {
 
 /*  Разъяснительные элементы  */
 
-.container.food, .container.plant, .button, .nav{
+.container.food, .container.plant, .container.cha1, .container.cha2, .button, .nav{
   position: absolute;
 }
 
 .container.food,
-.container.plant {
+.container.plant,
+.container.cha1,
+.container.cha2 {
   margin: auto;
   top: 0;
   left: 0;
@@ -101,7 +103,9 @@ section.main {
 
 
 #toggle1,
-#toggle2 {
+#toggle2,
+#toggle3,
+#toggle4 {
   display: none;
 }
 
@@ -125,6 +129,16 @@ section.main {
 	right: 15px;
 }
 
+.button.ch1 {
+  top: -1px;
+  right: 4px;
+}
+
+.button.ch2 {
+  top: -1px;
+  right: 4px;
+}
+
 .button::before,
 .button::after {
 	position: absolute;
@@ -146,12 +160,12 @@ section.main {
 
 .nav {
   transform: translateY(-10%);
-	opacity: 0;
-	top: 32px;
-  right: -111px;
+  opacity: 0;
+  top: 33px;
+  right: -95px;
   transition: all 0.5s ease-in-out;
   background: #FFF;
-  width: 125px;
+  width: 111px;
   border-radius: 5px;
   transform: translateY(0%);
 	box-shadow: 0px 2px 1px 0 rgba(0,0,0,.15);
@@ -168,85 +182,39 @@ section.main {
 }
 
 .nav.p {
-	top: 13px;
-  right: -119px;
+	top: 11px;
+  right: -141px;
+  width: 146px;
+}
+
+
+.nav.ch1,
+.nav.ch2 {
+  top: -17px;
+  right: 7px;
+  width: 0px;
+}
+
+
+.nav.ch1 a,
+.nav.ch2 a {
+  color: white;
+  font-weight: bold;
 }
 
 
 #toggle1:checked ~ .nav,
-#toggle2:checked ~ .nav {
+#toggle2:checked ~ .nav,
+#toggle3:checked ~ .nav,
+#toggle4:checked ~ .nav {
   opacity: 1;
   transform: translateY(10%);
 }
 
 #toggle1:checked ~ .button,
-#toggle2:checked ~ .button {
+#toggle2:checked ~ .button,
+#toggle3:checked ~ .button,
+#toggle4:checked ~ .button {
 	transform: rotate(135deg);
 	box-shadow: 0 0 0 0 transparent;
 }
-
-
-
-/* Checklisk */
-/*.cbx {
-  position: relative;
-  top: 1px;
-  width: 17px;
-  height: 17px;
-  border: 1px solid #C8CCD4;
-  border-radius: 3px;
-  vertical-align: middle;
-  transition: background .1s ease;
-  cursor: pointer;
-}
-
-.cbx::after {
-  content='';
-  position: absolute;
-  top: 1px;
-  left: 5px;
-  width: 5px;
-  height: 11px;
-  opacity: 0;
-  transform: rotate(45deg) scale(0);
-  border-right: 2px solid white;
-  border-bottom: 2px solid white;
-  transition: all .3s ease;
-  transition-delay: .15s;
-}
-
-.lbl {
-  margin-left: 5px;
-  vertical-align: middle;
-  cursor: pointer;
-}
-
-#cbx:checked ~ .cbx {
-  border-color: transparent;
-  background: #6871F1;
-  animation: jelly .6s ease;
-  -webkit-animation: jelly .6s ease;
-}
-
-#cbx:checked ~ .cbx::after {
-  opacity: 1;
-  transform: rotate(45deg) scale(1);
-}
-
-@keyframes jelly {
-  0% {transform scale(1, 1);}
-  30% {transform scale(1.25, 0.75);}
-  40% {transform scale(0.75, 1.25);}
-  50% {transform scale(1.15, 0.85);}
-  65% {transform scale(.95, 1.05);}
-  75% {transform scale(1.05, .95);}
-  100% {transform scale(1, 1);}
-}
-
-.cntr {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}*/
