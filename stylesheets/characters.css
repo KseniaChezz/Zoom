@@ -10,6 +10,18 @@
   background-repeat: no-repeat;
 }
 
+.character3 {
+  position: absolute;
+  width: 97px;
+  height: 93px;
+  bottom: 37%;
+  right: 19%;
+  animation: move-1 2.8s infinite alternate ease-in-out;
+  background-image: url(../images/color.nanozoo-10.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @keyframes move-1 {
   0% {
     -webkit-transform: translate(0px, 0px) rotate(3deg);

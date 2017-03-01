@@ -11,6 +11,7 @@ section.general {
 	align-items: center;
 	overflow: hidden;
 	width: 100%;
+  /*height: 100%;*/
 	margin: 0 auto;
 }
 section.main {
@@ -84,14 +85,15 @@ section.main {
 
 /*  Разъяснительные элементы  */
 
-.container.food, .container.plant, .container.cha1, .container.cha2, .button, .nav{
+.container.food, .container.plant, .container.cha1, .container.cha2, .container.cha3, .button, .nav{
   position: absolute;
 }
 
 .container.food,
 .container.plant,
 .container.cha1,
-.container.cha2 {
+.container.cha2,
+.container.cha3 {
   margin: auto;
   top: 0;
   left: 0;
@@ -105,7 +107,8 @@ section.main {
 #toggle1,
 #toggle2,
 #toggle3,
-#toggle4 {
+#toggle4,
+#toggle5 {
   display: none;
 }
 
@@ -129,12 +132,9 @@ section.main {
 	right: 15px;
 }
 
-.button.ch1 {
-  top: -1px;
-  right: 4px;
-}
-
-.button.ch2 {
+.button.ch1,
+.button.ch2,
+.button.ch3 {
   top: -1px;
   right: 4px;
 }
@@ -189,7 +189,8 @@ section.main {
 
 
 .nav.ch1,
-.nav.ch2 {
+.nav.ch2,
+.nav.ch3 {
   top: -17px;
   right: 7px;
   width: 0px;
@@ -197,7 +198,8 @@ section.main {
 
 
 .nav.ch1 a,
-.nav.ch2 a {
+.nav.ch2 a,
+.nav.ch3 a {
   color: white;
   font-weight: bold;
 }
@@ -206,7 +208,8 @@ section.main {
 #toggle1:checked ~ .nav,
 #toggle2:checked ~ .nav,
 #toggle3:checked ~ .nav,
-#toggle4:checked ~ .nav {
+#toggle4:checked ~ .nav,
+#toggle5:checked ~ .nav {
   opacity: 1;
   transform: translateY(10%);
 }
@@ -214,7 +217,7 @@ section.main {
 #toggle1:checked ~ .button,
 #toggle2:checked ~ .button,
 #toggle3:checked ~ .button,
-#toggle4:checked ~ .button {
+#toggle5:checked ~ .button {
 	transform: rotate(135deg);
 	box-shadow: 0 0 0 0 transparent;
 }
