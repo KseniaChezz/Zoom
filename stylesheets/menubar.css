@@ -12,47 +12,52 @@ footer {
 
 header {
   justify-content: space-between;
+  align-items: flex-end;
   height: 81px;
   margin: 0px 3vw;
+  padding-bottom: 13px;
   border-bottom: 2px solid white;
 }
 
 footer {
-  position: fixed;
   height: 42px;
   margin: 0px 3vw;
   border-top: 2px solid white;
   bottom: 0;
 }
 
-.logo {
+.logo div{
   display: block;
-  width: 125px;
-  height: 66px;
-  margin-top: 14px;
+  width: 102px;
+  height: 46px;
   background-image: url(../images/color.nanozoo-25.svg);
+  background-size: cover;
 }
 
 .buy {
   position: relative;
-  top: 18px;
   color: white;
 }
 
 .buy:before {
   display: block;
   text-align: center;
-  line-height: 69px;
   font-family: 'FontAwesome';
-  font-size: 28px;
+  font-size: 21px;
   /*Юникод*/
-  content: '\f06b';
+  content: '\f001';
+}
+
+.about div {
+  font-size: 14px;
+  color: white;
 }
 
 footer a {
   font-size: 14px;
   color: white;
 }
+
 /*.buy ul {
   position: absolute;
   top: 64px;
