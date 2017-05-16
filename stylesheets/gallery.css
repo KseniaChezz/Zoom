@@ -9,11 +9,11 @@
 }
 
 .prev {
-  right: calc(35vh + 18% + 18% + 50px);
+  left: 0;
 }
 
 .next {
-  left: calc(35vh + 18% + 18% + 50px);
+  right: 0;
 }
 
 .arrow-next,
