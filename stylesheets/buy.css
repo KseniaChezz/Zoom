@@ -15,46 +15,37 @@ body.plan {background-image: url(../images/color-plants.svg);}
 
 body.char {background-image: url(../images/color-characters.svg);}
 
-
-
-section.generalTer {
+.generalTer {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  width: 39%;
+  align-content: flex-start;
+  width: 40vw;
   height: 62vh;
-  margin: calc(34vh - 123px) auto;
+  margin: calc(100vh - 62vh - 148px) auto;
 }
 
-section.generalTer section.change {
-  align-content: flex-end;
-}
-
-section.terrarium {
+.terrarium {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 38px; */
   width: 100%;
-  /* height: 50vh; */
 }
 
-section.text {
+.text {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  /* width: 20vh; */
-  /* margin-top: 4px; */
-  /* margin-right: 45%; */
   color: white;
   font-size: 20px;
   font-weight: bold;
+  width: 177.36px;
 }
 
 .title {
   display: inline-flex;
+  width: 100%;
 }
 
 .title div:first-child {
@@ -65,6 +56,8 @@ section.text {
 .icons {
   position: relative;
   display: inline-flex;
+  width: 67%;
+  left: calc(100% - 67%);
 }
 
 .icons a div,
@@ -76,6 +69,10 @@ section.text {
   font-size: 16px;
   font-weight: normal;
   padding-left: 16px;
+}
+
+.icons a:first-child  div {
+  padding-left: 0px;
 }
 
 .icons a:first-child div::before {
@@ -105,7 +102,7 @@ figure.non1{
   background-image: url(../images/color-characters.svg);
 }
 
-section.gallery {
+.gallery {
   position: relative;
   align-items: center;
   overflow: hidden;
@@ -113,7 +110,7 @@ section.gallery {
   height: 400px;
 }
 
-section.rail {
+.rail {
   display: flex;
 }
 
@@ -150,10 +147,10 @@ section.rail {
 .ph9 {background-image: url(../images/color.nanozoo-17.svg);}
 .ph10 {background-image: url(../images/color.nanozoo-18.svg);}
 
-section.change {
+.change {
   display: flex;
   width: 145px;
-  /*margin-left: 48vh;*/
+  margin-left: calc(100% - 145px);
   flex-direction: column;
   justify-content: space-between;
 }
