@@ -40,12 +40,13 @@ body.char {background-image: url(../images/color-characters.svg);}
   color: white;
   font-size: 20px;
   font-weight: bold;
-  width: 177.36px;
+  width: 185.75px;
 }
 
 .title {
   display: inline-flex;
   width: 100%;
+  height: 43px;
 }
 
 .title div:first-child {
@@ -53,11 +54,15 @@ body.char {background-image: url(../images/color-characters.svg);}
   margin-right: 16px;
 }
 
+body.ter .generalTer .text .title div:first-child {
+  margin-right: 25px;
+}
+
 .icons {
   position: relative;
   display: inline-flex;
-  width: 67%;
-  left: calc(100% - 67%);
+  width: 64%;
+  left: calc(100% - 64%);
 }
 
 .icons a div,
