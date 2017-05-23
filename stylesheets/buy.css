@@ -21,7 +21,7 @@ body.char {background-image: url(../images/color-characters.svg);}
   flex-direction: column;
   align-content: flex-start;
   width: 40vw;
-  height: 62vh;
+  height: 64vh;
   margin: calc(100vh - 62vh - 148px) auto;
 }
 
@@ -152,15 +152,32 @@ figure.non1{
 .ph9 {background-image: url(../images/color.nanozoo-17.svg);}
 .ph10 {background-image: url(../images/color.nanozoo-18.svg);}
 
-.change {
-  display: flex;
-  width: 145px;
-  margin-left: calc(100% - 145px);
-  flex-direction: column;
-  justify-content: space-between;
+.randomIcon {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  /*margin-left: calc(100% - 145px);*/
+  /*justify-content: space-between;*/
 }
 
-.choose {
+.randomIcon a {
+}
+
+.randomIcon a:last-child div::after {
+  display: block;
+  text-align: center;
+  font-family: 'FontAwesome';
+  height: 100%;
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 10px;
+  content: '\f074';
+}
+
+
+/*.choose {
   position: relative;
   display: inline-flex;
   justify-content: space-between;
@@ -190,12 +207,12 @@ figure.non1{
   display: inline-flex;
   justify-content: space-between;
   color: white;
-}
+}*/
 
 
 /* Checkbox */
 
-.control {
+/*.control {
   display: block;
   cursor: pointer;
 }
@@ -238,4 +255,4 @@ figure.non1{
   border: solid #fff;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
-}
+}*/
